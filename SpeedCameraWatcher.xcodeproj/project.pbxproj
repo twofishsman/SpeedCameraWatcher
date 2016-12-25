@@ -12,6 +12,12 @@
 		1A35E0431E0C0C8000ED0171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0411E0C0C8000ED0171 /* Main.storyboard */; };
 		1A35E0451E0C0C8000ED0171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0441E0C0C8000ED0171 /* Assets.xcassets */; };
 		1A35E0481E0C0C8000ED0171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0461E0C0C8000ED0171 /* LaunchScreen.storyboard */; };
+		1A35E0511E0C147500ED0171 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A35E0501E0C147500ED0171 /* MapKit.framework */; };
+		1A35E0531E0C17A600ED0171 /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35E0521E0C17A600ED0171 /* other.swift */; };
+		1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0541E0CE4CE00ED0171 /* emergency.wav */; };
+		1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */; };
+		1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */; };
+		1A5017DF1E102ABD009F40EC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5017DE1E102ABD009F40EC /* Classifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		1A35E0441E0C0C8000ED0171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A35E0471E0C0C8000ED0171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A35E0491E0C0C8000ED0171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A35E0501E0C147500ED0171 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1A35E0521E0C17A600ED0171 /* other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		1A35E0541E0CE4CE00ED0171 /* emergency.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = emergency.wav; sourceTree = "<group>"; };
+		1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx"; sourceTree = "<group>"; };
+		1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mzl.piedkrcn.png; sourceTree = "<group>"; };
+		1A5017DE1E102ABD009F40EC /* Classifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A35E0511E0C147500ED0171 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +51,11 @@
 		1A35E0311E0C0C8000ED0171 = {
 			isa = PBXGroup;
 			children = (
+				1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */,
+				1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */,
 				1A35E03C1E0C0C8000ED0171 /* SpeedCameraWatcher */,
 				1A35E03B1E0C0C8000ED0171 /* Products */,
+				1A35E04F1E0C147500ED0171 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +73,22 @@
 				1A35E03D1E0C0C8000ED0171 /* AppDelegate.swift */,
 				1A35E03F1E0C0C8000ED0171 /* ViewController.swift */,
 				1A35E0411E0C0C8000ED0171 /* Main.storyboard */,
+				1A35E0521E0C17A600ED0171 /* other.swift */,
+				1A5017DE1E102ABD009F40EC /* Classifier.swift */,
 				1A35E0441E0C0C8000ED0171 /* Assets.xcassets */,
+				1A35E0541E0CE4CE00ED0171 /* emergency.wav */,
 				1A35E0461E0C0C8000ED0171 /* LaunchScreen.storyboard */,
 				1A35E0491E0C0C8000ED0171 /* Info.plist */,
 			);
 			path = SpeedCameraWatcher;
+			sourceTree = "<group>";
+		};
+		1A35E04F1E0C147500ED0171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A35E0501E0C147500ED0171 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +125,14 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = Y4TA5872GD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,7 +161,10 @@
 			files = (
 				1A35E0481E0C0C8000ED0171 /* LaunchScreen.storyboard in Resources */,
 				1A35E0451E0C0C8000ED0171 /* Assets.xcassets in Resources */,
+				1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */,
+				1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */,
 				1A35E0431E0C0C8000ED0171 /* Main.storyboard in Resources */,
+				1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5017DF1E102ABD009F40EC /* Classifier.swift in Sources */,
 				1A35E0401E0C0C8000ED0171 /* ViewController.swift in Sources */,
+				1A35E0531E0C17A600ED0171 /* other.swift in Sources */,
 				1A35E03E1E0C0C8000ED0171 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +302,7 @@
 				DEVELOPMENT_TEAM = Y4TA5872GD;
 				INFOPLIST_FILE = SpeedCameraWatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = james.SpeedCameraWatcher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mammoth.speedcamerawatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +315,7 @@
 				DEVELOPMENT_TEAM = Y4TA5872GD;
 				INFOPLIST_FILE = SpeedCameraWatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = james.SpeedCameraWatcher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mammoth.speedcamerawatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +340,7 @@
 				1A35E04E1E0C0C8000ED0171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
