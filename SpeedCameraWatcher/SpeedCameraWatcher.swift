@@ -11,7 +11,7 @@ import Foundation
 import CoreLocation
 
 extension CLLocation {
-    // In meteres
+    
     class func distance(from: CLLocationCoordinate2D, to: CLLocationCoordinate2D) -> CLLocationDistance {
         let from = CLLocation(latitude: from.latitude, longitude: from.longitude)
         let to = CLLocation(latitude: to.latitude, longitude: to.longitude)
@@ -19,36 +19,48 @@ extension CLLocation {
     }
 }
 
-class other: NSObject {
+class SpeedCameraWatcher: NSObject {
+    
+    struct SpeedLimit{
+        static let FreeWaySpeedLimit       = 110.0
+        static let ExpressWayLimit         = 80.0
+        static let CityWayLimit            = 50.0
+        static let NonDrivingSpeedLimit    = 10.0
+    }
+    
+    enum Kind_SpeedCamera {
+        case FreeWay
+        case ExpressWay
+        case CityWay
+    }
     
     struct speedCamera {
          var name         = String()
          var location     = CLLocationCoordinate2D ()
          var postNO       = Int()
+         var kind       = Kind_SpeedCamera.CityWay
     }
     
-    static func getSpeedCamerasArr() -> [speedCamera]//([String], [CLLocationCoordinate2D])
-    {
-        var pointStrArr =  pointsStr.components(separatedBy: ")(")
-       // var SPNames = [String]()
-       // var SPLocations = [CLLocationCoordinate2D]()
+    static func getSpeedCamerasArr() -> [speedCamera]{
+        let pointStrArr =  pointsStr.components(separatedBy: ")(")
         var SpeedCameraArr = [speedCamera]()
+        
         for pointStr in pointStrArr{
-           // print("\(pointStr)")
             let component = pointStr.components(separatedBy: ",")
-           // let name =
-           // let location =
-            //SPNames.append(name)
-            //SPLocations.append(location)
-            
             var theSpeedCamera = speedCamera.init()
+            
             theSpeedCamera.name = component[1] as String
             theSpeedCamera.location = CLLocationCoordinate2D(latitude: Double( component[2] )! , longitude: Double(component[3])!)
+            if theSpeedCamera.name.range(of: "國道") != nil{
+                theSpeedCamera.kind = .FreeWay
+            }else if (theSpeedCamera.name.range(of: "台6") != nil ||
+                theSpeedCamera.name.range(of: "台7") != nil ||
+                theSpeedCamera.name.range(of: "台8") != nil){
+                theSpeedCamera.kind = .ExpressWay
+                print(theSpeedCamera.name)
+            }
             SpeedCameraArr.append(theSpeedCamera)
-            //print("\(component[1]),\(component[2]),\(component[3])")
         }
-        
-        
         return SpeedCameraArr
     }
     

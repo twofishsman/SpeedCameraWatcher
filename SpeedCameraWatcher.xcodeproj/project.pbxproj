@@ -13,11 +13,19 @@
 		1A35E0451E0C0C8000ED0171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0441E0C0C8000ED0171 /* Assets.xcassets */; };
 		1A35E0481E0C0C8000ED0171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0461E0C0C8000ED0171 /* LaunchScreen.storyboard */; };
 		1A35E0511E0C147500ED0171 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A35E0501E0C147500ED0171 /* MapKit.framework */; };
-		1A35E0531E0C17A600ED0171 /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35E0521E0C17A600ED0171 /* other.swift */; };
+		1A35E0531E0C17A600ED0171 /* SpeedCameraWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35E0521E0C17A600ED0171 /* SpeedCameraWatcher.swift */; };
 		1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0541E0CE4CE00ED0171 /* emergency.wav */; };
 		1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */; };
 		1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */; };
-		1A5017DF1E102ABD009F40EC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5017DE1E102ABD009F40EC /* Classifier.swift */; };
+		1A5017E91E10A6B6009F40EC /* 500.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E61E10A6B6009F40EC /* 500.wav */; };
+		1A5017EA1E10A6B6009F40EC /* 300.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E71E10A6B6009F40EC /* 300.wav */; };
+		1A5017EB1E10A6B6009F40EC /* 200.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E81E10A6B6009F40EC /* 200.wav */; };
+		1A5017ED1E10BA4A009F40EC /* ColorPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5017EC1E10BA4A009F40EC /* ColorPointAnnotation.swift */; };
+		1A50180A1E10E17F009F40EC /* ExpressWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018071E10E17F009F40EC /* ExpressWayCamera.png */; };
+		1A50180B1E10E17F009F40EC /* CityWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018081E10E17F009F40EC /* CityWayCamera.png */; };
+		1A50180C1E10E17F009F40EC /* FreeWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018091E10E17F009F40EC /* FreeWayCamera.png */; };
+		1A50180F1E110E51009F40EC /* 啟動測速偵測模式.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */; };
+		1A5018101E110E51009F40EC /* 駕駛結束進入省電模式.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +37,19 @@
 		1A35E0471E0C0C8000ED0171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A35E0491E0C0C8000ED0171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A35E0501E0C147500ED0171 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		1A35E0521E0C17A600ED0171 /* other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		1A35E0521E0C17A600ED0171 /* SpeedCameraWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedCameraWatcher.swift; sourceTree = "<group>"; };
 		1A35E0541E0CE4CE00ED0171 /* emergency.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = emergency.wav; sourceTree = "<group>"; };
 		1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx"; sourceTree = "<group>"; };
 		1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mzl.piedkrcn.png; sourceTree = "<group>"; };
-		1A5017DE1E102ABD009F40EC /* Classifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		1A5017E61E10A6B6009F40EC /* 500.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500.wav; sourceTree = "<group>"; };
+		1A5017E71E10A6B6009F40EC /* 300.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 300.wav; sourceTree = "<group>"; };
+		1A5017E81E10A6B6009F40EC /* 200.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 200.wav; sourceTree = "<group>"; };
+		1A5017EC1E10BA4A009F40EC /* ColorPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPointAnnotation.swift; sourceTree = "<group>"; };
+		1A5018071E10E17F009F40EC /* ExpressWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExpressWayCamera.png; sourceTree = "<group>"; };
+		1A5018081E10E17F009F40EC /* CityWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityWayCamera.png; sourceTree = "<group>"; };
+		1A5018091E10E17F009F40EC /* FreeWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FreeWayCamera.png; sourceTree = "<group>"; };
+		1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "啟動測速偵測模式.mp3"; sourceTree = "<group>"; };
+		1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "駕駛結束進入省電模式.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */,
+				1A5017E61E10A6B6009F40EC /* 500.wav */,
+				1A5017E71E10A6B6009F40EC /* 300.wav */,
+				1A5017E81E10A6B6009F40EC /* 200.wav */,
+				1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */,
+				1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */,
+				1A5018071E10E17F009F40EC /* ExpressWayCamera.png */,
+				1A5018081E10E17F009F40EC /* CityWayCamera.png */,
+				1A5018091E10E17F009F40EC /* FreeWayCamera.png */,
 				1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */,
 				1A35E03C1E0C0C8000ED0171 /* SpeedCameraWatcher */,
 				1A35E03B1E0C0C8000ED0171 /* Products */,
@@ -73,8 +97,8 @@
 				1A35E03D1E0C0C8000ED0171 /* AppDelegate.swift */,
 				1A35E03F1E0C0C8000ED0171 /* ViewController.swift */,
 				1A35E0411E0C0C8000ED0171 /* Main.storyboard */,
-				1A35E0521E0C17A600ED0171 /* other.swift */,
-				1A5017DE1E102ABD009F40EC /* Classifier.swift */,
+				1A35E0521E0C17A600ED0171 /* SpeedCameraWatcher.swift */,
+				1A5017EC1E10BA4A009F40EC /* ColorPointAnnotation.swift */,
 				1A35E0441E0C0C8000ED0171 /* Assets.xcassets */,
 				1A35E0541E0CE4CE00ED0171 /* emergency.wav */,
 				1A35E0461E0C0C8000ED0171 /* LaunchScreen.storyboard */,
@@ -160,11 +184,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A35E0481E0C0C8000ED0171 /* LaunchScreen.storyboard in Resources */,
+				1A5017EB1E10A6B6009F40EC /* 200.wav in Resources */,
 				1A35E0451E0C0C8000ED0171 /* Assets.xcassets in Resources */,
+				1A5017EA1E10A6B6009F40EC /* 300.wav in Resources */,
 				1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */,
+				1A50180B1E10E17F009F40EC /* CityWayCamera.png in Resources */,
+				1A5018101E110E51009F40EC /* 駕駛結束進入省電模式.mp3 in Resources */,
 				1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */,
 				1A35E0431E0C0C8000ED0171 /* Main.storyboard in Resources */,
+				1A50180F1E110E51009F40EC /* 啟動測速偵測模式.mp3 in Resources */,
 				1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */,
+				1A5017E91E10A6B6009F40EC /* 500.wav in Resources */,
+				1A50180A1E10E17F009F40EC /* ExpressWayCamera.png in Resources */,
+				1A50180C1E10E17F009F40EC /* FreeWayCamera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5017DF1E102ABD009F40EC /* Classifier.swift in Sources */,
 				1A35E0401E0C0C8000ED0171 /* ViewController.swift in Sources */,
-				1A35E0531E0C17A600ED0171 /* other.swift in Sources */,
+				1A35E0531E0C17A600ED0171 /* SpeedCameraWatcher.swift in Sources */,
+				1A5017ED1E10BA4A009F40EC /* ColorPointAnnotation.swift in Sources */,
 				1A35E03E1E0C0C8000ED0171 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
