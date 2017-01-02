@@ -38,7 +38,7 @@ class ViewController: UIViewController ,MKMapViewDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         self.setLocationManager()
         btnUserCenterResume.isHidden = true
         mapNavi.delegate = self
@@ -54,7 +54,13 @@ class ViewController: UIViewController ,MKMapViewDelegate{
     }
 
     func setLocationManager() {
-   
+        self.locationManager = CLLocationManager()
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+        self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.allowsBackgroundLocationUpdates = true
+        self.locationManager.startUpdatingLocation()
         self.setSpeedCamerasAnnotation()
     }
     
@@ -100,7 +106,7 @@ class ViewController: UIViewController ,MKMapViewDelegate{
     }
     
     func chieckinCameraWatchArea(distance:Double,currentSpeedCamera: SpeedCameraWatcher.speedCamera) {
-        if (distanceNearSpeedCamera < distance && watcherStatus == WatcherStatus.normal){
+        if (distanceNearSpeedCamera > 250 && distanceNearSpeedCamera < distance && watcherStatus == WatcherStatus.normal){
                         watcherStatus = WatcherStatus.inwarning
             switch distance {
             case 200:
@@ -108,18 +114,19 @@ class ViewController: UIViewController ,MKMapViewDelegate{
             case 300:
                 playNotice(title: "[\(distanceNearSpeedCamera)] \(currentSpeedCamera.name)", soundFile: "300")
             case 500:
-                playNotice(title: "[\(distanceNearSpeedCamera)] \(currentSpeedCamera.name)", soundFile: "500")
+                
+                playNotice(title: "[\(distanceNearSpeedCamera)] \(currentSpeedCamera.name)", soundFile: String(currentSpeedCamera.speedLimit))
             default:
                 print("NO")
             }
         }
-        else if (distanceNearSpeedCamera > 500 && watcherStatus == WatcherStatus.inwarning){
+        else if (distanceNearSpeedCamera < 250   && watcherStatus == WatcherStatus.inwarning){
                 watcherStatus = WatcherStatus.normal
         }
+         print("distance:\(distanceNearSpeedCamera)  status: \(watcherStatus)")
     }
     
     func updateVCUI(currentCLLcation :CLLocation,currentSpeedCamera: SpeedCameraWatcher.speedCamera){
-        currentSpeedCamera.kind
         labName_NearSpeedCamera.text        = "名字: \(currentSpeedCamera.name) \( currentSpeedCamera.kind)"
         labLocation_NearSpeedCamera.text    = "位罝: \(currentSpeedCamera.location)"
         labDistance_NearSpeedCamera.text    = "距離: \(distanceNearSpeedCamera)"
@@ -127,7 +134,6 @@ class ViewController: UIViewController ,MKMapViewDelegate{
     }
     
     func checkNearCameraWatch (currentCLLcation: CLLocation, currentSpeedCamera: SpeedCameraWatcher.speedCamera){
-        
         if currentSpeedCamera.kind == .FreeWay{
             chieckinCameraWatchArea(distance: 500.0, currentSpeedCamera: currentSpeedCamera)
         }else if (currentSpeedCamera.kind == .ExpressWay){
@@ -205,7 +211,7 @@ extension ViewController: CLLocationManagerDelegate{
         
         updateVCUI(currentCLLcation: currentCLLcation, currentSpeedCamera: nearestSpeedCamer)
         self.setMapCenter(center: (locations.last?.coordinate)!)
-        print("distance:\(distanceNearSpeedCamera),location \(nearestSpeedCamer.location)")
+       
         //setSystemsleeping_Wakeup(speed: currentSpeedPerHour)
     }
     

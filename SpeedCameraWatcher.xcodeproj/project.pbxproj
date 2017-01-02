@@ -15,20 +15,30 @@
 		1A35E0511E0C147500ED0171 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A35E0501E0C147500ED0171 /* MapKit.framework */; };
 		1A35E0531E0C17A600ED0171 /* SpeedCameraWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35E0521E0C17A600ED0171 /* SpeedCameraWatcher.swift */; };
 		1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0541E0CE4CE00ED0171 /* emergency.wav */; };
-		1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */; };
+		1A35E0571E0D0A5300ED0171 /* TrackOnCity.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0561E0D0A5300ED0171 /* TrackOnCity.gpx */; };
 		1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */; };
-		1A5017E91E10A6B6009F40EC /* 500.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E61E10A6B6009F40EC /* 500.wav */; };
-		1A5017EA1E10A6B6009F40EC /* 300.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E71E10A6B6009F40EC /* 300.wav */; };
-		1A5017EB1E10A6B6009F40EC /* 200.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5017E81E10A6B6009F40EC /* 200.wav */; };
+		1A3F54661E1A83E00093928C /* 20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F545C1E1A83E00093928C /* 20.wav */; };
+		1A3F54671E1A83E00093928C /* 30.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F545D1E1A83E00093928C /* 30.wav */; };
+		1A3F54681E1A83E00093928C /* 40.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F545E1E1A83E00093928C /* 40.wav */; };
+		1A3F54691E1A83E00093928C /* 50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F545F1E1A83E00093928C /* 50.wav */; };
+		1A3F546A1E1A83E00093928C /* 60.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54601E1A83E00093928C /* 60.wav */; };
+		1A3F546B1E1A83E00093928C /* 70.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54611E1A83E00093928C /* 70.wav */; };
+		1A3F546C1E1A83E00093928C /* 80.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54621E1A83E00093928C /* 80.wav */; };
+		1A3F546D1E1A83E00093928C /* 90.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54631E1A83E00093928C /* 90.wav */; };
+		1A3F546E1E1A83E00093928C /* 100.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54641E1A83E00093928C /* 100.wav */; };
+		1A3F546F1E1A83E00093928C /* 110.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54651E1A83E00093928C /* 110.wav */; };
+		1A3F54711E1A88450093928C /* TrackOnFreeWay.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F54701E1A88450093928C /* TrackOnFreeWay.gpx */; };
 		1A5017ED1E10BA4A009F40EC /* ColorPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5017EC1E10BA4A009F40EC /* ColorPointAnnotation.swift */; };
 		1A50180A1E10E17F009F40EC /* ExpressWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018071E10E17F009F40EC /* ExpressWayCamera.png */; };
 		1A50180B1E10E17F009F40EC /* CityWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018081E10E17F009F40EC /* CityWayCamera.png */; };
 		1A50180C1E10E17F009F40EC /* FreeWayCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5018091E10E17F009F40EC /* FreeWayCamera.png */; };
 		1A50180F1E110E51009F40EC /* 啟動測速偵測模式.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */; };
 		1A5018101E110E51009F40EC /* 駕駛結束進入省電模式.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */; };
+		1A846E891E1A392F00B6FB92 /* ConvertCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A846E881E1A392F00B6FB92 /* ConvertCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2BF6741E1A8DF800782E72 /* SpeedCameraWatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeedCameraWatcher.entitlements; sourceTree = "<group>"; };
 		1A35E03A1E0C0C8000ED0171 /* SpeedCameraWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedCameraWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A35E03D1E0C0C8000ED0171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A35E03F1E0C0C8000ED0171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,17 +49,28 @@
 		1A35E0501E0C147500ED0171 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1A35E0521E0C17A600ED0171 /* SpeedCameraWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedCameraWatcher.swift; sourceTree = "<group>"; };
 		1A35E0541E0CE4CE00ED0171 /* emergency.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = emergency.wav; sourceTree = "<group>"; };
-		1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx"; sourceTree = "<group>"; };
+		1A35E0561E0D0A5300ED0171 /* TrackOnCity.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrackOnCity.gpx; sourceTree = "<group>"; };
 		1A35E0581E0D162F00ED0171 /* mzl.piedkrcn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mzl.piedkrcn.png; sourceTree = "<group>"; };
-		1A5017E61E10A6B6009F40EC /* 500.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500.wav; sourceTree = "<group>"; };
-		1A5017E71E10A6B6009F40EC /* 300.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 300.wav; sourceTree = "<group>"; };
-		1A5017E81E10A6B6009F40EC /* 200.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 200.wav; sourceTree = "<group>"; };
+		1A3F545C1E1A83E00093928C /* 20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 20.wav; sourceTree = "<group>"; };
+		1A3F545D1E1A83E00093928C /* 30.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 30.wav; sourceTree = "<group>"; };
+		1A3F545E1E1A83E00093928C /* 40.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 40.wav; sourceTree = "<group>"; };
+		1A3F545F1E1A83E00093928C /* 50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 50.wav; sourceTree = "<group>"; };
+		1A3F54601E1A83E00093928C /* 60.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 60.wav; sourceTree = "<group>"; };
+		1A3F54611E1A83E00093928C /* 70.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 70.wav; sourceTree = "<group>"; };
+		1A3F54621E1A83E00093928C /* 80.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 80.wav; sourceTree = "<group>"; };
+		1A3F54631E1A83E00093928C /* 90.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 90.wav; sourceTree = "<group>"; };
+		1A3F54641E1A83E00093928C /* 100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 100.wav; sourceTree = "<group>"; };
+		1A3F54651E1A83E00093928C /* 110.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 110.wav; sourceTree = "<group>"; };
+		1A3F54701E1A88450093928C /* TrackOnFreeWay.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrackOnFreeWay.gpx; sourceTree = "<group>"; };
 		1A5017EC1E10BA4A009F40EC /* ColorPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPointAnnotation.swift; sourceTree = "<group>"; };
 		1A5018071E10E17F009F40EC /* ExpressWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExpressWayCamera.png; sourceTree = "<group>"; };
 		1A5018081E10E17F009F40EC /* CityWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityWayCamera.png; sourceTree = "<group>"; };
 		1A5018091E10E17F009F40EC /* FreeWayCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FreeWayCamera.png; sourceTree = "<group>"; };
 		1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "啟動測速偵測模式.mp3"; sourceTree = "<group>"; };
 		1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "駕駛結束進入省電模式.mp3"; sourceTree = "<group>"; };
+		1A846E881E1A392F00B6FB92 /* ConvertCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCoordinate.swift; sourceTree = "<group>"; };
+		B5765A5FF0A991ABC03EFF2B /* Pods-SpeedCameraWatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedCameraWatcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedCameraWatcher/Pods-SpeedCameraWatcher.debug.xcconfig"; sourceTree = "<group>"; };
+		E4CF42563347F21255A6761A /* Pods-SpeedCameraWatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedCameraWatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedCameraWatcher/Pods-SpeedCameraWatcher.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +88,10 @@
 		1A35E0311E0C0C8000ED0171 = {
 			isa = PBXGroup;
 			children = (
-				1A35E0561E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx */,
-				1A5017E61E10A6B6009F40EC /* 500.wav */,
-				1A5017E71E10A6B6009F40EC /* 300.wav */,
-				1A5017E81E10A6B6009F40EC /* 200.wav */,
+				1A3F54271E1A3F4D0093928C /* audio */,
+				1A846E871E1A392F00B6FB92 /* ConvertCoordinate */,
+				1A35E0561E0D0A5300ED0171 /* TrackOnCity.gpx */,
+				1A3F54701E1A88450093928C /* TrackOnFreeWay.gpx */,
 				1A50180D1E110E51009F40EC /* 啟動測速偵測模式.mp3 */,
 				1A50180E1E110E51009F40EC /* 駕駛結束進入省電模式.mp3 */,
 				1A5018071E10E17F009F40EC /* ExpressWayCamera.png */,
@@ -80,6 +101,7 @@
 				1A35E03C1E0C0C8000ED0171 /* SpeedCameraWatcher */,
 				1A35E03B1E0C0C8000ED0171 /* Products */,
 				1A35E04F1E0C147500ED0171 /* Frameworks */,
+				44715FDD0D05F536B2B40248 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +116,7 @@
 		1A35E03C1E0C0C8000ED0171 /* SpeedCameraWatcher */ = {
 			isa = PBXGroup;
 			children = (
+				1A2BF6741E1A8DF800782E72 /* SpeedCameraWatcher.entitlements */,
 				1A35E03D1E0C0C8000ED0171 /* AppDelegate.swift */,
 				1A35E03F1E0C0C8000ED0171 /* ViewController.swift */,
 				1A35E0411E0C0C8000ED0171 /* Main.storyboard */,
@@ -115,6 +138,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1A3F54271E1A3F4D0093928C /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				1A3F545C1E1A83E00093928C /* 20.wav */,
+				1A3F545D1E1A83E00093928C /* 30.wav */,
+				1A3F545E1E1A83E00093928C /* 40.wav */,
+				1A3F545F1E1A83E00093928C /* 50.wav */,
+				1A3F54601E1A83E00093928C /* 60.wav */,
+				1A3F54611E1A83E00093928C /* 70.wav */,
+				1A3F54621E1A83E00093928C /* 80.wav */,
+				1A3F54631E1A83E00093928C /* 90.wav */,
+				1A3F54641E1A83E00093928C /* 100.wav */,
+				1A3F54651E1A83E00093928C /* 110.wav */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		1A846E871E1A392F00B6FB92 /* ConvertCoordinate */ = {
+			isa = PBXGroup;
+			children = (
+				1A846E881E1A392F00B6FB92 /* ConvertCoordinate.swift */,
+			);
+			path = ConvertCoordinate;
+			sourceTree = "<group>";
+		};
+		44715FDD0D05F536B2B40248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5765A5FF0A991ABC03EFF2B /* Pods-SpeedCameraWatcher.debug.xcconfig */,
+				E4CF42563347F21255A6761A /* Pods-SpeedCameraWatcher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A35E04C1E0C0C8000ED0171 /* Build configuration list for PBXNativeTarget "SpeedCameraWatcher" */;
 			buildPhases = (
+				49EB407A6950152DEA4B9DD9 /* [CP] Check Pods Manifest.lock */,
 				1A35E0361E0C0C8000ED0171 /* Sources */,
 				1A35E0371E0C0C8000ED0171 /* Frameworks */,
 				1A35E0381E0C0C8000ED0171 /* Resources */,
+				F66E5A55155FB67AE108D7D3 /* [CP] Embed Pods Frameworks */,
+				C21AAE3D18219E639961B47F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +216,9 @@
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 						};
 					};
 				};
@@ -183,24 +246,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3F54671E1A83E00093928C /* 30.wav in Resources */,
 				1A35E0481E0C0C8000ED0171 /* LaunchScreen.storyboard in Resources */,
-				1A5017EB1E10A6B6009F40EC /* 200.wav in Resources */,
 				1A35E0451E0C0C8000ED0171 /* Assets.xcassets in Resources */,
-				1A5017EA1E10A6B6009F40EC /* 300.wav in Resources */,
 				1A35E0591E0D162F00ED0171 /* mzl.piedkrcn.png in Resources */,
+				1A3F546E1E1A83E00093928C /* 100.wav in Resources */,
+				1A3F546C1E1A83E00093928C /* 80.wav in Resources */,
+				1A3F546F1E1A83E00093928C /* 110.wav in Resources */,
 				1A50180B1E10E17F009F40EC /* CityWayCamera.png in Resources */,
+				1A3F546D1E1A83E00093928C /* 90.wav in Resources */,
+				1A3F54661E1A83E00093928C /* 20.wav in Resources */,
+				1A3F546B1E1A83E00093928C /* 70.wav in Resources */,
 				1A5018101E110E51009F40EC /* 駕駛結束進入省電模式.mp3 in Resources */,
+				1A3F54711E1A88450093928C /* TrackOnFreeWay.gpx in Resources */,
 				1A35E0551E0CE4CE00ED0171 /* emergency.wav in Resources */,
+				1A3F546A1E1A83E00093928C /* 60.wav in Resources */,
 				1A35E0431E0C0C8000ED0171 /* Main.storyboard in Resources */,
 				1A50180F1E110E51009F40EC /* 啟動測速偵測模式.mp3 in Resources */,
-				1A35E0571E0D0A5300ED0171 /* Track on 2015-02-16 at 21-51 GMT+8 for Xcode.gpx in Resources */,
-				1A5017E91E10A6B6009F40EC /* 500.wav in Resources */,
+				1A3F54691E1A83E00093928C /* 50.wav in Resources */,
+				1A3F54681E1A83E00093928C /* 40.wav in Resources */,
+				1A35E0571E0D0A5300ED0171 /* TrackOnCity.gpx in Resources */,
 				1A50180A1E10E17F009F40EC /* ExpressWayCamera.png in Resources */,
 				1A50180C1E10E17F009F40EC /* FreeWayCamera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49EB407A6950152DEA4B9DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C21AAE3D18219E639961B47F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedCameraWatcher/Pods-SpeedCameraWatcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66E5A55155FB67AE108D7D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedCameraWatcher/Pods-SpeedCameraWatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A35E0361E0C0C8000ED0171 /* Sources */ = {
@@ -211,6 +330,7 @@
 				1A35E0531E0C17A600ED0171 /* SpeedCameraWatcher.swift in Sources */,
 				1A5017ED1E10BA4A009F40EC /* ColorPointAnnotation.swift in Sources */,
 				1A35E03E1E0C0C8000ED0171 /* AppDelegate.swift in Sources */,
+				1A846E891E1A392F00B6FB92 /* ConvertCoordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +449,10 @@
 		};
 		1A35E04D1E0C0C8000ED0171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5765A5FF0A991ABC03EFF2B /* Pods-SpeedCameraWatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpeedCameraWatcher/SpeedCameraWatcher.entitlements;
 				DEVELOPMENT_TEAM = Y4TA5872GD;
 				INFOPLIST_FILE = SpeedCameraWatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -342,8 +464,10 @@
 		};
 		1A35E04E1E0C0C8000ED0171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CF42563347F21255A6761A /* Pods-SpeedCameraWatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpeedCameraWatcher/SpeedCameraWatcher.entitlements;
 				DEVELOPMENT_TEAM = Y4TA5872GD;
 				INFOPLIST_FILE = SpeedCameraWatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
